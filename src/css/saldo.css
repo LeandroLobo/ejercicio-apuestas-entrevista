@@ -1,0 +1,12 @@
+#saldo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+}
+#saldo button{
+    margin-bottom: 10px;
+}

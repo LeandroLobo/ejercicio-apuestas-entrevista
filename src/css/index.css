@@ -5,6 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+}
+
+.titulo-principal{
+  color: goldenrod;
+  text-align: center;
+}
+
+.seccion-juego{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 code {

@@ -1,0 +1,33 @@
+.form-apuesta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.form-apuesta > h2{
+    color: goldenrod;
+}
+.form-apuesta > div{
+    margin: 10px;
+    color: white;
+}
+.form-apuesta div > label {
+    margin-right: 8px;
+}
+.form-apuesta div > input{
+    width: 50px;
+}
+.form-apuesta .btn-jugar{
+    padding: 5px;
+    font-size: 20px;
+    background-color: goldenrod;
+    color: white;
+    margin-bottom: 10px;
+}
+.error-campo{
+    font-size: 12px;
+    display: inline;
+    color: red;
+    margin-left: 5px;
+}
